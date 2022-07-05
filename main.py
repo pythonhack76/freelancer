@@ -1,14 +1,8 @@
-lista = ['giovanni']
+lista = ['pippo','giovanni','enzo']
+lista = [x.upper() for x in lista]
 
-valore_uno = 'primo'
-valore = input("inseriscine uno: ")
-
-
-lista.append(valore)
-
-for x in lista:
-    print(x)
+print(lista)
 
 
-lista2 = ['mario','enzo','paolo']
+
 
