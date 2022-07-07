@@ -1,3 +1,5 @@
+from database import *
+
 class Persona:
     def __init__(self, nome = 'null', cognome = 'null', sesso = 'null', anni = 'null', nascita = 'null', indirizzo = 'null', email = 'null'):
         self.nome = nome
@@ -37,9 +39,6 @@ class Lavoro:
 
     def creaLavoro(self):
         print('test crea lavoro')
-        
-
-
 
 
 
@@ -47,3 +46,5 @@ p1 = Persona('luca','rulvoni')
 p1.creaPersona() 
 p2 = Lavoro('developer') 
 p2.creaLavoro()
+
+c1 = Connessione()
